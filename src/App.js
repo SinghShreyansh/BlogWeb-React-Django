@@ -23,13 +23,9 @@ function App() {
   return (
     <div className="App">
       <Router>
-        {
-         window.location.pathname=="/category" &&
-        <Route exact path="/category">
-        <SelectCategory/>
-         </Route>
-      } 
-      { 
+        
+          
+     
         <div className="App">
         
           <div className="content">
@@ -43,6 +39,9 @@ function App() {
                
 
               </Route>
+            <Route exact path="/category">
+                <SelectCategory/>
+             </Route>
                 
                 
               <Route exact path="/home">
@@ -101,7 +100,7 @@ function App() {
             </Switch>
           </div>
         </div>  
-      }  
+       
       </Router>
     </div>
   );
