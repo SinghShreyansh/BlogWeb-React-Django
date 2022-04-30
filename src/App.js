@@ -24,7 +24,7 @@ function App() {
     <div className="App">
       <Router>
         {
-        window.location.href==="http://localhost:3000/category" &&
+        window.location.href==="https://blog-web-beta.vercel.app/category" &&
         <Route exact path="/category">
         <SelectCategory/>
          </Route>
