@@ -30,8 +30,12 @@ const SelectCategory = () => {
         history.push("/welcome")
     }
 
-    useEffect(() => {
-        
+   useEffect(() => {
+        console.log(window.location.href)
+        console.log(window.location.pathname)
+        console.log(window.location.hostname)
+
+
     }, []);
 
   return (
