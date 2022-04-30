@@ -24,7 +24,7 @@ function App() {
     <div className="App">
       <Router>
         {
-         window.location.pathname==="/category" &&
+         window.location.pathname=="/category" &&
         <Route exact path="/category">
         <SelectCategory/>
          </Route>
